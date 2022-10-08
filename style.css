@@ -1,0 +1,193 @@
+.container {
+    margin: auto;
+    background: #daf9ff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.container-login {
+    width: 50%;
+}
+
+.container-cadastro {
+    width: 70%;
+}
+
+.container-listagem {
+    width: 70%;
+}
+
+
+.container-listagem ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container-listagem ul li {
+    background: #41c4f8;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.container-listagem ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    line-height: 30px;
+}
+
+.container-listagem ul li a:hover {
+    text-decoration: underline;
+}
+
+.dados {
+    display: inline-block;
+    margin: 0px;
+    width: 80%;
+}
+
+
+
+.titulo-item-listagem {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descricao-item-listagem ul li {
+    font-size: 14px;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+}
+
+.icone-lista {
+    display: inline-block;
+    margin: 0px;
+    width: 10%;
+}
+
+.icone-lista img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icone-lista a {
+    float: left;
+    margin: 10px;
+}
+
+
+
+input[type=password],
+input [type=text] {
+    padding: 10px;
+    width: auto;
+}
+
+input[type=text],
+input[type=password],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 7px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    font-weight: bold;
+}
+
+
+
+#aviso-usuario {
+    color: red;
+}
+
+#aviso {
+    color: red;
+}
+
+
+
+
+
+
+.item-listagem {
+    margin: auto;
+    min-width: 350px;
+    width: 65%;
+    border-radius: 10px;
+    background: #5bffd156;
+    padding: 10px;
+}
+
+.botao {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: rgb(42, 96, 222);
+    color: white;
+    border-radius: 25px;
+}
+
+.botao a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* MENU SUPERIOR */
+
+.barra-superior {
+    margin: 0px auto 20px;
+    display: block;
+    width: 100%;
+}
+
+.barra-superior ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: rgb(28, 138, 255);
+    border-radius: 10px;
+}
+
+.barra-superior ul li {
+    margin: 10px 0px;
+    color: white;
+    font-size: 18px;
+    display: inline;
+}
+
+.barra-superior ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    line-height: 2.1em;
+}
+
+.barra-superior ul li a:hover {
+    text-decoration: underline;
+    background: rgb(63, 162, 255);
+    border-radius: 10px;
+}
